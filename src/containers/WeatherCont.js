@@ -2,6 +2,7 @@ import { connect } from 'react-redux'
 import React from 'react'
 import {API_KEY} from '../adapters/api_adapter'
 import { addCurrentWeather, addForecast } from '../actions/forecast'
+import WeatherInfo from '../components/WeatherInfo'
 
 
 class WeatherCont extends React.Component {
@@ -27,10 +28,18 @@ class WeatherCont extends React.Component {
             this.getWeather(30312)
             }
 
+        buildWeatherInfo=()=>{
+            if(Object.keys(this.props.currentWeather).length > 0){
+                return <WeatherInfo currentWeather={this.props.currentWeather} />
+            }else{
+                return <h1>Loading...</h1>
+            }
+        }
+
         render(){
         return(
             <div>
-
+                {this.buildWeatherInfo()}
             </div>
             )}
 }
