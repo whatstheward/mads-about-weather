@@ -1,6 +1,8 @@
 {
   "name": "mads-about-weather",
   "version": "0.1.0",
+  "description": "A React Weather App with Express, PostgreSQL",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
