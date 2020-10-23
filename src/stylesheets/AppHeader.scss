@@ -11,8 +11,21 @@ $azure-x-11-web-color: #e4f2f2ff;
     display:flex;
     background-color: $blue-sapphire;
     height: 15%;
-    align-items: center;
     padding: 5px 10px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.left{
+    display:flex;
+    flex: 1;
+    align-items: center;
+    float: left;
+    justify-content: flex-start;
 }
 
 #app-name{
@@ -25,6 +38,14 @@ $azure-x-11-web-color: #e4f2f2ff;
 i {
     color: white;
     margin: 5px;
+}
+
+.search-bar{
+    align-self: center;
+    border-radius: 25px;
+    border: none;
+    height:2em;
+    width: 200px;
 }
 
 
