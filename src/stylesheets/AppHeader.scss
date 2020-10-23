@@ -1,0 +1,31 @@
+$medium-carmine: #a94742ff;
+$gold-crayola: #eebf72ff;
+$raisin-black: #262335ff;
+$blue-sapphire: #23688dff;
+$teal-blue: #407284ff;
+$powder-blue: #95c7cbff;
+$azure-x-11-web-color: #e4f2f2ff;
+
+
+#app-header{
+    display:flex;
+    background-color: $blue-sapphire;
+    height: 15%;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+#app-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+    margin-left: 5px;
+}
+
+i {
+    color: white;
+    margin: 5px;
+}
+
+
+
