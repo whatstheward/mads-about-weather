@@ -1,10 +1,10 @@
-const updateSearchValue = data => ({
-    action: 'UPDATE_SEARCH_VAL',
+export const updateSearchValue = data => ({
+    type: 'UPDATE_SEARCH_VAL',
     data: data
 })
 
-const submitSearchValue = data => ({
-    action: 'SUBMIT_SEARCH',
+export const submitSearchValue = data => ({
+    type: 'SUBMIT_SEARCH',
     data: data
 })
 
