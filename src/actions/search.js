@@ -7,3 +7,4 @@ const submitSearchValue = data => ({
     action: 'SUBMIT_SEARCH',
     data: data
 })
+
