@@ -1,0 +1,52 @@
+$medium-carmine: #a94742ff;
+$gold-crayola: #eebf72ff;
+$raisin-black: #262335ff;
+$blue-sapphire: #23688dff;
+$teal-blue: #407284ff;
+$powder-blue: #95c7cbff;
+$azure-x-11-web-color: #e4f2f2ff;
+
+
+#app-header{
+    display:flex;
+    background-color: $blue-sapphire;
+    height: 15%;
+    padding: 5px 10px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.left{
+    display:flex;
+    flex: 1;
+    align-items: center;
+    float: left;
+    justify-content: flex-start;
+}
+
+#app-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+    margin-left: 5px;
+}
+
+i {
+    color: white;
+    margin: 5px;
+}
+
+.search-bar{
+    align-self: center;
+    border-radius: 25px;
+    border: none;
+    height: 2em;
+    width: 200px;
+}
+
+
+
